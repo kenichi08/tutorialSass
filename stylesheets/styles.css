@@ -1,0 +1,43 @@
+/*
+Error: Invalid CSS after "  *\/": expected selector or at-rule, was "}*\/"
+        on line 311 of C:/Users/kenichi/Desktop/sass/sass/styles.scss
+
+306:   content: image-url('featured-image.png');
+307:   /*
+308:   width: image-width('../images/featured-image.png');
+309:   height: image-height('../images/featured-image.png');
+310:   *\/
+311: }*\/
+312: 
+313: // Use a Compass mixin to scale 2x horz & vert
+314: // Move horz & vert, rotate 45deg and perform multiple transforms
+315: 
+316: #logo {
+
+Backtrace:
+C:/Users/kenichi/Desktop/sass/sass/styles.scss:311
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:42:in `parse'
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:281:in `render'
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `call'
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"  */\": expected selector or at-rule, was \"}*/\"\A         on line 311 of C:/Users/kenichi/Desktop/sass/sass/styles.scss\A \A 306:   content: image-url('featured-image.png');\A 307:   /*\A 308:   width: image-width('../images/featured-image.png');\A 309:   height: image-height('../images/featured-image.png');\A 310:   */\A 311: }*/\A 312: \A 313: // Use a Compass mixin to scale 2x horz & vert\A 314: // Move horz & vert, rotate 45deg and perform multiple transforms\A 315: \A 316: #logo {"; }

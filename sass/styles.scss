@@ -1,8 +1,8 @@
 @import "compass";
-@import "partials/variables";
-@import "partials/normalize";
-@import "partials/mixins";
-@import "partials/base";
+@import "partials/_variables";
+@import "partials/_normalize";
+@import "partials/_mixins";
+@import "partials/_base";
 @import "compass/css3";
 
 #banner{
@@ -301,14 +301,14 @@ footer {
 
 // Target the img with the given alt and change the src
 // and restore the proper size
-
+/*
 img[alt="Programming Frameworks"] {
   content: image-url('featured-image.png');
   /*
   width: image-width('../images/featured-image.png');
   height: image-height('../images/featured-image.png');
   */
-}
+}*/
 
 // Use a Compass mixin to scale 2x horz & vert
 // Move horz & vert, rotate 45deg and perform multiple transforms
